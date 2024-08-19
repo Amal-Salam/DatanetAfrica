@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Space+Grotesk:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Space+Grotesk:wght@300..700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --color-white:#FFFFFF;
+    --color-blue: #1F3A7F;
+    --color-purple:#F8EEFF ;
+    --color-red: #B91724;
+    --color-black:#1D2329;
+
+    --primary-text-color: #141515;
+    --secondary-text-color: #9FA4A6;
+
+    font-family: "Space Grotesk", sans-serif;
+    font-family: "Playfair Display", serif;
+        
+      
+  }
+}
+
